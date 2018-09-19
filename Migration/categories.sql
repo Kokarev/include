@@ -1,0 +1,5 @@
+CREATE TABLE `categories`
+( `id` INT NOT NULL AUTO_INCREMENT ,
+  `title` VARCHAR(256) NOT NULL ,
+  PRIMARY KEY (`id`)
+) ENGINE = InnoDB;
